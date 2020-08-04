@@ -28,6 +28,7 @@
   opacity: 0.6;
 }
 
+/* img apenas filhas diretas */
 .page-header .top-bar-container > img {
   height: 1.6rem;
 }
@@ -56,6 +57,7 @@
   position: relative;
 }
 
+/* input-block seguidos de outro input-block */
 #search-teachers .input-block + .input-block {
   margin-top: 1.4rem;
 }
@@ -76,6 +78,10 @@
   font: 1.6rem Archive;
 }
 
+/* 
+  focus-within adiciona estido ao input-block quando o input interno possuir focus
+  after adiciona um elemento no final do input-block
+*/
 #search-teachers .input-block:focus-within::after {
   width: calc(100% - 3.2rem);
   height: 2px;
