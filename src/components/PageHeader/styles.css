@@ -51,7 +51,7 @@
 
   .page-header .header-content {
     flex: 1;
-    max-width: 740;
+    max-width: 740px;
     margin: 0 auto;
     padding-bottom: 48px;
     display: flex;
