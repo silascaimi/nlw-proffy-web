@@ -50,3 +50,26 @@
   right: 1.6rem;
   bottom: 0;
 }
+
+@media (min-width: 700px) {
+  #page-teacher-list {
+    max-width: 100vw;
+  }
+
+  #search-teachers {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    /* alternativa para
+    grid-template-columns: 1fr 1fr 1fr;*/
+
+    /* distanciamento entre cada coluna */
+    column-gap: 16px;
+
+    position: absolute;
+    bottom: -28px;
+  }
+
+  #search-teachers .input-block + .input-block {
+    margin-top: 0;
+  }
+}
