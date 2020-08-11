@@ -37,7 +37,7 @@ function TeacherList() {
               <span>Tecnologia</span>
             </div>
           </header>
-          <p>Entusiasta</p>
+          <p>Entusiasta de tecnologias</p>
           <br />
           <br />
           <footer>
